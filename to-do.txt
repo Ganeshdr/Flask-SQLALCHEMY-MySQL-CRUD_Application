@@ -1,0 +1,4 @@
+openssl commands:
+1. openssl genrsa -aes256 -out ng2toh.key 2048
+2. openssl req -key ng2toh.key -new -sha256 -out ng2toh.csr
+3. openssl x509 -req -days 375 -sha256 -in ng2toh.csr -signkey ng2toh.key -out ng2toh.crt
