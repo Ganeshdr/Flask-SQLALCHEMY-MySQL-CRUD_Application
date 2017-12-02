@@ -12,7 +12,7 @@
             "platform_release": "16.0.0",
             "platform_system": "Darwin",
             "platform_version": "Darwin Kernel Version 16.0.0: Mon Aug 29 17:56:20 PDT 2016; root:xnu-3789.1.32~3/RELEASE_X86_64",
-            "python_full_version": "2.7.10",
+            "python_full_version": "2.7.14",
             "python_version": "2.7",
             "sys_platform": "darwin"
         },
