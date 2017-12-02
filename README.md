@@ -4,5 +4,5 @@ This repo serves as a basic Flask kit inorder to connect to a DB using sqlalchem
 ## Running the app
 Run the below commands to start the Flask server
 
-* pip install flask pyjwt Flask-SQLAlchemy
+* pip install -r requirements.txt
 * python run.py
