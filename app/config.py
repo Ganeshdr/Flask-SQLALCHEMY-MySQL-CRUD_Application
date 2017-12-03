@@ -21,9 +21,9 @@ class DefaultConfig(BaseConfig):
    # Statement for enabling the development environment
    DEBUG = True
 
-   SQLALCHEMY_DATABASE_URI = "mysql://root:ganesh123@localhost/mytestdb"
+   SQLALCHEMY_DATABASE_URI = "mysql://b21a60cbdf5aa1:d4e25cf9@us-cdbr-iron-east-05.cleardb.net/heroku_8f6b40cddd2ebcb?reconnect=true"
    SQLALCHEMY_BINDS = {
-    'login':        "mysql://root:ganesh123@localhost/payroll_mgmt",
+    'login':        "mysql://b21a60cbdf5aa1:d4e25cf9@us-cdbr-iron-east-05.cleardb.net/heroku_8f6b40cddd2ebcb",
     # 'employees':      "mysql://root:ganesh123@localhost/mytestdb"
    }
    
